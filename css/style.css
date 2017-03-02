@@ -1,0 +1,118 @@
+/* Globals */
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("../images/riverwp.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div.container {
+  width: 80%;
+  border: 1px solid white;
+  background: transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.page {
+  text-align: center;
+}
+
+footer {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+footer i.fa-3x {
+  display: inline;
+  transition: all 0.5s ease-in-out;
+}
+
+footer .fa-3x {
+  margin: 2px;
+  color: white;
+}
+
+footer .fa-3x:hover {
+  color: green;
+}
+
+
+/* Global Styling for Pages */
+.page {
+    bottom: 0;
+    padding-top: 200px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.page h1 {
+  font-size: 60px;
+}
+
+/* Specific page styling */
+.page-home      {
+  background: transparent;
+  color:#00907c;
+}
+
+.page-about     {
+  background: transparent;
+  color:#a55400;
+}
+
+.page-contact   {
+  background: transparent;
+  color:#9e0000;
+}
+
+.page-portfolio {
+  background: transparent;
+  color:#9e0000;
+}
+
+.page-project {
+  background: transparent;
+  color:#9e0000;
+}
+
+/* Header Styling */
+header {
+  border: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header nav ul, header nav ul a {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+header nav ul li, header nav ul a {
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+
+/* Welcome Page Styling */
+div.welcomeStatement {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
