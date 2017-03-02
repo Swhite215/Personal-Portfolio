@@ -21,29 +21,6 @@ div.page {
   text-align: center;
 }
 
-footer {
-  padding-left: 10px;
-  padding-bottom: 10px;
-  color: white;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-}
-
-footer i.fa-3x {
-  display: inline;
-  transition: all 0.5s ease-in-out;
-}
-
-footer .fa-3x {
-  margin: 2px;
-  color: white;
-}
-
-footer .fa-3x:hover {
-  color: green;
-}
-
 
 /* Global Styling for Pages */
 .page {
@@ -106,8 +83,12 @@ header nav ul li, header nav ul a {
   padding: 10px;
   font-size: 18px;
   color: white;
+  letter-spacing: 5px;
 }
 
+header nav ul a:hover {
+  text-decoration: underline;
+}
 
 /* Welcome Page Styling */
 div.welcomeStatement {
@@ -115,4 +96,33 @@ div.welcomeStatement {
   text-align: center;
   font-size: 16px;
   color: white;
+}
+
+
+/* Footer Styling */
+footer {
+  background: transparent;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer i.fa-3x {
+  display: inline;
+}
+
+footer .fa-3x {
+  margin: 2px;
+  color: white;
+}
+
+i:hover {
+  color: green;
 }
