@@ -166,6 +166,7 @@ img#personalImage {;
 /* Portfolio Page Styling */
 div.workContainer {
   width: 30%;
+  height: 224px;
   margin-bottom: 5%;
   margin-left: 2%;
   display: inline;
@@ -175,6 +176,10 @@ div.workContainer {
 #worksImage {
   width: 95%;
   height: 220px;
+}
+
+#worksImage:hover {
+  border: 2px solid white;
 }
 
 /* Project Styling */
@@ -219,9 +224,10 @@ i:hover {
 
 /* Media Queries */
 
-@media (max-width: 862px) {
+@media (max-width: 1000px) {
   div.workContainer {
     width: 40%;
+    min-width: 290px;
     margin-left: 8%;
     display: inline;
     float: left;
