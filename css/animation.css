@@ -6,16 +6,6 @@
   to { transform: translateX(-100%);
   }
 }
-@-moz-keyframes slideOutLeft {
-	to 		{
-    -moz-transform: translateX(-100%);
-  }
-}
-@-webkit-keyframes slideOutLeft {
-	to 		{
-    -webkit-transform: translateX(-100%);
-  }
-}
 
 @keyframes scaleDown {
   to {
@@ -23,20 +13,8 @@
     transform: scale(0);
   }
 }
-@-moz-keyframes scaleDown {
-  to {
-    opacity: 0;
-    -moz-transform: scale(0);
-  }
-}
-@-webkit-keyframe scaleDown {
-  to {
-    opacity: 0;
-    -webkit-transform: scale(0);
-  }
-}
 
-@keyframes slideInRight {
+@keyframe slideInRight {
   from {
     transform: translateX(100%);
   }
@@ -44,22 +22,6 @@
     transform: translateX(0);
   }
 }
-@-moz-keyframes slideInRight {
-	from 	{
-    -moz-transform:translateX(100%);
-  }
-	to 		{
-    -moz-transform: translateX(0);
-  }
-}
-@-webkit-keyframes slideInRight {
-	from 	{
-    -webkit-transform:translateX(100%);
-  }
-	to 		{
-    -webkit-transform: translateX(0);
-  }
-
 
 @keyframes scaleUp {
   from {
@@ -67,18 +29,7 @@
     transform: scale(0.4);
   }
 }
-@-moz-keyframes scaleUp {
-	from 		{
-    opacity: 0.3;
-    -moz-transform: scale(0.8);
-  }
-}
-@-webkit-keyframes scaleUp {
-	from 		{
-    opacity: 0.3;
-    -webkit-transform: scale(0.8);
-  }
-}
+
 
 .ng-enter {
   animation: scaleUp 0.7s both ease-in;
