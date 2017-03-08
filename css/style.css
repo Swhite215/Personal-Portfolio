@@ -173,6 +173,17 @@ div.workContainer {
   height: 220px;
 }
 
+/* Project Styling */
+h2 {
+  color: white;
+}
+
+#viImage {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 20%;
+}
 
 /* Footer Styling */
 footer {
@@ -248,5 +259,8 @@ i:hover {
   }
   span.rowSpan {
     display: none;
+  }
+  #projectHeader {
+    font-size: 40px;
   }
 }
