@@ -15,6 +15,7 @@ div.container {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
+  text-align: center;
 }
 
 div.page {
@@ -34,6 +35,7 @@ div.page {
 
 .page h1 {
   font-size: 60px;
+  z-index: -1;
 }
 
 /* Specific page styling */
@@ -121,6 +123,12 @@ div.welcomeStatement h2 {
 }
 
 /* About Page Styling */
+span.infoSpan {
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+}
 section.imgContainer {
   width: 25%;
   float: left;
@@ -151,6 +159,20 @@ img#personalImage {;
   min-width: 200px;
 }
 
+/* Portfolio Page Styling */
+div.workContainer {
+  width: 30%;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  display: inline;
+  float: left;
+}
+
+#worksImage {
+  width: 100%;
+}
+
+
 /* Footer Styling */
 footer {
   background: transparent;
@@ -179,6 +201,17 @@ i:hover {
   color: green;
 }
 
+/* Media Queries */
+
+@media (max-width: 862px) {
+  div.workContainer {
+    width: 40%;
+    margin-left: 8%;
+    display: inline;
+    float: left;
+  }
+}
+
 @media (max-width: 660px) {
   header nav ul li, header nav ul a {
     float: none;
@@ -203,5 +236,13 @@ i:hover {
   }
   section.imgContainer {
     margin-left: 20%;
+  }
+  div.workContainer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    display: block;
+    float: none;
   }
 }
