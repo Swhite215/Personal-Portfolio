@@ -18,6 +18,10 @@ div.container {
   text-align: center;
 }
 
+div.portfolio {
+  width: 95%;
+}
+
 div.page {
   text-align: center;
 }
@@ -169,7 +173,7 @@ div.workContainer {
 }
 
 #worksImage {
-  width: 100%;
+  width: 95%;
   height: 220px;
 }
 
